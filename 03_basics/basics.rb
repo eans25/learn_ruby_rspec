@@ -15,22 +15,24 @@ def reverse_upcase_noLTA (text)
 end
 
 
-# def array_42 (array)
-# 	array.each(|k|if k == 42 return true else return false)
-# 	end 
+
 
 def array_42(array)
-	array.each do |value|
-		if value == 42
-			return true
-		end
-	end
-	return false
+	array.include? 42
 end
 
 
-def magic_array
 
+def magic_array(array)
+	array.flatten! # flatten! supprime les crochets dans le tableau
+	new_array = []
+array.each do |i|
+	if i % 3 != 0 # si i n'est pas multiple de 3
+		new_array << i * 2
+	end
+end
+new_array.sort.uniq #
+end
 
 
 
