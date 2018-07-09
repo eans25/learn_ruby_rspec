@@ -1,11 +1,9 @@
-#write your code here
-def translate(text)
-	vowel = %w[a e i o u]
-	if text[0] != vowel
-		str.gsub(text[0], text[-1]) 
-puts text
+
+def translate(word)
+
+	if word.start_with?('a'||'e'||'i'||'o'||'u'||'y')
+  word << "ay"
+else
+  word.gsub(word[0] , "") << word[0] << "ay"
 end
 end
-
-
-translate()
