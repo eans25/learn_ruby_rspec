@@ -29,6 +29,4 @@ def titleize(s)
 		little_words.include?(word) ? word : word.capitalize
 # s.split.map(&:capitalize)*' '
 end
-
-
 end

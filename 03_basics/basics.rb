@@ -31,7 +31,7 @@ array.each do |i|
 		new_array << i * 2
 	end
 end
-new_array.sort.uniq #
+new_array.sort.uniq # on supprime les doublons
 end
 
 

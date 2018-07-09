@@ -1,4 +1,4 @@
-def bonjour
+def hello
 	"Hello!"
 end
 
